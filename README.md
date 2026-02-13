@@ -37,7 +37,7 @@ dns2:
 1. Configure as a recursive resolver with **dns.skillmio.net** as upstream.
 2. Optionally, use `domain-blist` for local zone blocking.
 
-### OPNsense / pfSense / Firewalls
+### OPNsense / pfSense / Firewalls / fail2ban
 
 1. Set DNS forwarding to **Skillmio DNS**.
 2. Apply `ip-blist` to firewall rules for perimeter security.
