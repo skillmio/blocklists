@@ -43,5 +43,5 @@ echo "  exempt.txt (downloaded)"
 echo "  all_blocked_domains.txt.bak (backup)"
 
 echo ""
-echo "Next: scp $(whoami)@$(hostname):/tmp/clean_blocked_domains.txt ."
+echo "Next: scp $(whoami)@$(hostname -I | awk '{print $1}'):/tmp/clean_blocked_domains.txt . "
 
