@@ -1,2 +1,2 @@
-# Collaborative Sec
+# Collaborative Sec (CoSec)
 
