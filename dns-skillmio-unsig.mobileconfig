@@ -1,11 +1,17 @@
+
+<!-- dns-skillmio-sig.mobileconfig    # signed version    -->
+<!-- dns-skillmio-unsig.mobileconfig  # unsigned version  -->
+
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" 
 "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+  <!-- This profile configures Skillmio DNS over TLS (DoT) -->
   <key>PayloadContent</key>
   <array>
     <dict>
+      <!-- DNS server settings -->
       <key>DNSSettings</key>
       <dict>
         <key>DNSProtocol</key>
@@ -18,6 +24,7 @@
         <key>ServerName</key>
         <string>dns.skillmio.net</string>
       </dict>
+      <!-- Description shown in UI -->
       <key>PayloadDescription</key>
       <string>Configura o DNS Skillmio (DoT)</string>
       <key>PayloadDisplayName</key>
