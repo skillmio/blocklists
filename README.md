@@ -81,37 +81,25 @@ The `banned_ips` list can be applied to:
 
 **Typical usage pattern:**
 
-1. Import the `banned_ips` list.
+1. Import the [`banned_ips`](https://github.com/skillmio/CoSec) list.
 2. Apply it as deny / drop rules.
 3. Automate periodic updates.
 4. Review logs for accidental blocks.
-
----
 
 ### How it's made
 
 The **banned_ips** list is assembled from:
 
-* Community reports and observations
+
 * Logs and abuse patterns
-* Trusted external threat feeds
+* Community reports and observations
 * Manual validation by maintainers
 
 Before inclusion:
 
 * IPs are checked for consistency and recurrence
 * Temporary or noisy IPs may be excluded
-* Known shared or critical infrastructure may be exempted
 
 The objective is **accuracy over volume**: fewer IPs, higher confidence.
 
----
 
-If you want, I can:
-
-* Tighten this for a **README.md**
-* Add **contribution guidelines**
-* Add **automation/update flow**
-* Adapt language for **investors**, **auditors**, or **open-source contributors**
-
-Just say the word.
