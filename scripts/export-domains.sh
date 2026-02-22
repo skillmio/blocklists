@@ -41,7 +41,7 @@ echo "  all_blocked_domains.txt ($(wc -l < raw_blocked_domains.txt) lines)"
 echo "  pre_blocked_domains.txt ($(wc -l < pre_blocked_domains.txt) lines)"
 echo "  blocked_domains.txt ($(wc -l < blocked_domains.txt) lines) - READY FOR UPLOAD"
 echo "  exempt_domains (downloaded)"
-echo "  all_blocked_domains.txt.bak (backup)"
+echo "  raw_blocked_domains.txt.bak (backup)"
 
 echo ""
 echo "---------------------------------------------"
