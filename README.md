@@ -1,4 +1,4 @@
 # Collaborative Sec (CoSec)
 
 ## Mental Model 
-> stevenblack_hosts + skillmio_hosts - exempt_hosts = blocked_domains
+> curated_domains + candidate_domains - exempt_domains = blocked_domains
