@@ -46,7 +46,7 @@ echo ""
 echo "---------------------------------------------"
 echo "Next Step:"
 echo "On a windows client:"
-echo "scp $(whoami)@$(hostname -I | awk '{print $1}'):/tmp/clean_blocked_domains.txt \"%USERPROFILE%\\Downloads\"
+echo "scp $(whoami)@$(hostname -I | awk '{print $1}'):/tmp/clean_blocked_domains.txt \$HOME/Downloads/"
 echo ""
 
 
