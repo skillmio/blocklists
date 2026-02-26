@@ -38,7 +38,7 @@ The `blocked_domains` list can be used in multiple contexts, such as:
 2. Load it into your blocking mechanism.
 3. Apply reload / restart if required.
  
-
+Explore more usage options at [https://skillmio.github.io/](https://skillmio.github.io/)
 
 ### How it's made
 
@@ -102,4 +102,5 @@ Before inclusion:
 
 The objective is **accuracy over volume**: fewer IPs, higher confidence.
 
+Explore more usage options at [https://skillmio.github.io/](https://skillmio.github.io/)
 
